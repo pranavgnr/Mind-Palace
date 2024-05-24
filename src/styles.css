@@ -1,1 +1,6 @@
-/* You can add global styles to this file, and also import other style files */
+.archivo-narrow-unique {
+  font-family: "Archivo Narrow", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+}
