@@ -10,7 +10,8 @@ import { RouterModule } from '@angular/router';
 import { AllProjectsComponent } from './all-projects/all-projects.component';
 import { BigTileComponent } from './big-tile/big-tile.component';
 import { CreateBlogComponent } from './create-blog/create-blog.component';
-
+import { NgxEditorModule } from 'ngx-editor';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -27,7 +28,9 @@ import { CreateBlogComponent } from './create-blog/create-blog.component';
   imports: [
     CommonModule,
     SharedModule,
-    RouterModule
+    RouterModule,
+    NgxEditorModule,
+    FormsModule
   ],
   exports: [
   ]
