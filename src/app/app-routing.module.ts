@@ -5,6 +5,7 @@ import { ProjectsComponent } from './features/projects/projects.component';
 import { AllBlogsComponent } from './features/all-blogs/all-blogs.component';
 import { AllProjectsComponent } from './features/all-projects/all-projects.component';
 import { BigTileComponent } from './features/big-tile/big-tile.component';
+import { CreateBlogComponent } from './features/create-blog/create-blog.component';
 
 const routes: Routes = [
   {path:'', redirectTo: '/home', pathMatch: 'full' },
@@ -12,6 +13,7 @@ const routes: Routes = [
   {path:'projects', component: AllProjectsComponent },
   {path: 'essays', component: AllBlogsComponent},
   {path: 'project/:id', component: BigTileComponent},
+  {path:'create-blog', component: CreateBlogComponent },
   {path: '**', redirectTo: 'home'}
 ];
 
